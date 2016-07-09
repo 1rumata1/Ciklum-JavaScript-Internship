@@ -1,0 +1,30 @@
+{
+  "name": "Ciklum-JavaScript-Internship",
+  "version": "1.0.0",
+  "description": "Ciklum JavaScript Internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1rumata1/Ciklum-JavaScript-Internship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1rumata1/Ciklum-JavaScript-Internship/issues"
+  },
+  "homepage": "https://github.com/1rumata1/Ciklum-JavaScript-Internship#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-server-livereload": "^1.8.1",
+    "gulp-uglify": "^1.5.4",
+    "pug": "^2.0.0-beta3"
+  }
+}

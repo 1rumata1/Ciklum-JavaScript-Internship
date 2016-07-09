@@ -1,0 +1,1 @@
+console.log("banner"),console.log("footer"),console.log("nav"),console.log("special"),console.log("subscribe");
