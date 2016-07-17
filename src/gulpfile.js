@@ -20,11 +20,11 @@ gulp.task("build", function(){
 gulp.task("scripts", function () {
 	gulp.src("scripts/*.js")
 		.pipe(concat("bundle.js"))
-		// .pipe(uglify({
-		// 	compress:{
-		// 		drop_debugger: false
-		// 	}
-		// }))
+		.pipe(uglify({
+			compress:{
+				drop_debugger: false
+			}
+		}))
 		.pipe(gulp.dest("../public"))
 		.pipe(refresh(server));
 });
