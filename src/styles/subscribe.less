@@ -1,0 +1,105 @@
+#subscribe {
+	width: 100%;
+	height: auto;
+	padding: 160px 0 145px;
+	background: #323a45;
+
+	.title-section {
+		text-align: center;
+		color: #fff;
+		font-size: 30px;
+    	margin-bottom: 20px;
+
+		span {
+			font-weight: bold;
+		}
+	}
+
+	form {
+		margin-bottom: 20px;
+
+		.form-field-wrapper {
+			text-align: center;
+
+			.form-field {
+				display: inline-block;
+				position: relative;
+				margin-left: 10px;
+
+				.ico-user,
+				.ico-email,
+				.ico-password {
+					position: absolute;
+					top: 20px;
+					left: 6px;
+				}
+
+				.ico-user {
+					width: 22px;
+					height: 22px;
+					background: url("https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png") 0px -476px no-repeat;
+				}
+
+				.ico-email {
+					position: absolute;
+				    top: 26px;
+				    width: 24px;
+					height: 16px;
+					background: url("https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png") 0px -392px no-repeat;
+				}
+
+				.ico-password {
+					width: 24px;
+					height: 24px;
+					background: url("https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png") 0px -430px no-repeat;
+				}
+		 	}
+		}
+
+		input {
+			width: 242px;
+    		height: 64px;
+		    border-radius: 3px;
+		    border: 1px solid #d4d7da;
+		    padding-left: 35px;
+
+			&.error {
+			    border-color: #ff3366;
+			}
+		}
+
+	    .decor {
+	    	font-size: 18px;
+    		color: #8a959e;
+	    }
+
+		#get_started {
+			width: 300px;
+			height: 60px;
+		    border-radius: 5px;
+		    border: 0;
+			background: #ff3366;
+		    color: #fff;
+		    font-size: 15px;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		}
+	}
+
+	.title-section-footer {
+		a {
+			color: #747c83;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
+	    font-family: "Open Sans", open-sans, sans-serif;
+	    line-height: 1.8em;
+	    color: #747c83;
+	    font-size: .78em;
+	    text-align: center;
+	}
+}

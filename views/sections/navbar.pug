@@ -1,72 +1,103 @@
-navbar.header-menu#header-menu
+section.header-menu#header-menu
 	a.logo(href="/")
 		img(src="//assets.onestore.ms/cdnfiles/onestorerolling-1606-01000/shell/v3/images/logo/microsoft.png")
 	.dropdown-wrapper
 		a.trigger-dropdown Store
-		.dropdown-content
-			ul
-				li.dropdown-link
+		.dropdown-content-wrapper
+			.dropdown-content-wrapper-cell
+				.dropdown-link 
 					a Home Page
-				li.dropdown-link
-					a.trigger-dropdown-hover Office
-					.dropdown-content
-						ul
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
-							li.dropdown-link
-								a Windows
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
-							li.dropdown-link
-								a Windows
-							li.dropdown-link
-								a Windows
-
-				li.dropdown-link
-					a.trigger-dropdown-hover Windows
-					.dropdown-content
-						ul
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
+				.dropdown-link.trigger(data-trigger-target="office") Office
+				.dropdown-link.trigger(data-trigger-target="windows") Windows
+			.dropdown-content-wrapper-cell
+				.dropdown-content#office
+					ul
+						li.dropdown-link
+							a All versions of Office
+						li.dropdown-link
+							a Office software components
+						li.dropdown-link
+							a All Office software
+						li.dropdown-link
+							a Office for your Mac
+						li.dropdown-link
+							a Office 365
+						li.dropdown-link
+							a Compare Office software
+						li.dropdown-link
+							a Office languages package
+				.dropdown-content#windows
+					ul
+						li.dropdown-link
+							a Windows 10 Home
+						li.dropdown-link
+							a Office 10 Pro
 	.dropdown-wrapper
-		a.trigger-dropdown Store
-		.dropdown-content
-			ul
-				li.dropdown-link
-					a Home Page
-				li.dropdown-link
-					a.trigger-dropdown-hover Office
-					.dropdown-content
-						ul
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
-							li.dropdown-link
-								a Windows
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
-							li.dropdown-link
-								a Windows
-							li.dropdown-link
-								a Windows
+		a.trigger-dropdown Products
+		.dropdown-content-wrapper
+			.dropdown-content-wrapper-cell
+				.dropdown-link.trigger(data-trigger-target="services") Software and Services
+				.dropdown-link.trigger(data-trigger-target="devices") Devices and Xbox
+				.dropdown-link.trigger(data-trigger-target="business") For business
+				.dropdown-link.trigger(data-trigger-target="developres") For IT specialists and Developers
+				.dropdown-link.trigger(data-trigger-target="education") Education
+			.dropdown-content-wrapper-cell
+				.dropdown-content#services
+					ul
+						li.dropdown-link
+							a Windows
+						li.dropdown-link
+							a Office
+						li.dropdown-link
+							a Free downloads and security
+						li.dropdown-link
+							a Internet Explorer
+						li.dropdown-link
+							a Microsoft Edge
+						li.dropdown-link
+							a Skype
+						li.dropdown-link
+							a OneNote
+				.dropdown-content#devices
+					ul
+						li.dropdown-link
+							a Computer accessories
+						li.dropdown-link
+							a Microsoft Lumia
+				.dropdown-content#business
+					ul
+						li.dropdown-link
+							a Micosoft Azure
+						li.dropdown-link
+							a Microsoft Dynamics
+						li.dropdown-link
+							a Windows for business
+						li.dropdown-link
+							a Office for business
+						li.dropdown-link
+							a Skype for business
+						li.dropdown-link
+							a Corporate solutions
+						li.dropdown-link
+							a Solutions for small business
+						li.dropdown-link
+							a Find solutions provider
+				.dropdown-content#developres
+					ul
+						li.dropdown-link
+							a Windows software development
+						li.dropdown-link
+							a Micosoft Azure
+						li.dropdown-link
+							a MSDN
+						li.dropdown-link
+							a Visual Studio
+				.dropdown-content#education
+					ul
+						li.dropdown-link
+							a Education
 
-				li.dropdown-link
-					a.trigger-dropdown-hover Windows
-					.dropdown-content
-						ul
-							li.dropdown-link
-								a Home Page
-							li.dropdown-link
-								a Office
-	a(href="/") Support
-	input#mssearch.search(type="text" placeholder="search")
-	a.login(href="#special") Login
+	a(href="//support.microsoft.com/uk-ua") Support
+	.right-header
+		input#mssearch.search(type="text" placeholder="search")
+		a.login(href="#special") Login
